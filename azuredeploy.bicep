@@ -56,7 +56,20 @@ var openAiSettings = {
     name: 'gpt-35-turbo'
     version: '0301'
     deployment: {
-      name: 'chatmodel'
+      name: 'completions'
+    }
+  }
+}
+
+var openAiSettings = {
+  name: '${name}-openai'
+  sku: openAiSku
+  maxConversationTokens: '2000'
+  model: {
+    name: 'text-embedding-ada-002'
+    version: '2 (Default)'
+    deployment: {
+      name: 'embeddings'
     }
   }
 }
