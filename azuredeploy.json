@@ -68,7 +68,7 @@
       "type": "string",
       "defaultValue": "https://github.com/ManjulaChintharla/cosmosdb-chatgpt.git",
       "metadata": {
-        "description": "Git repository URL for the chat application. This defaults to the [`azure-samples/cosmosdb-chatgpt`](https://github.com/ManjulaChintharla/cosmosdb-chatgpt.git) repository."
+        "description": "Git repository URL for the chat application. This defaults to the [`ManjulaChintharla/cosmosdb-chatgpt`](https://github.com/ManjulaChintharla/cosmosdb-chatgpt.git) repository."
       }
     },
     "appGetRepositoryBranch": {
